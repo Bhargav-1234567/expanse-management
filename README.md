@@ -1,3 +1,16 @@
+
+## How to use 
+
+For multiple user we need to register users in register page and add that users into friend list after you can add and manage the expanse 
+  between friends.
+- Register Multiple users from the Register screen to add the dummy users to the application.
+- Register as many as you can.
+- Go to the friends screen. If there is nof friend; Click on "Add Friend" Button and you can se the list of all registered users list.
+
+For check the expanse between multiple users
+- Login with the different users (which are registered users in the app) and add friends and add expanse  
+- Add as many as you can  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,10 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## How to use 
-
-For multiple user we need to register users in register page and add that users into friend list after you can add and manage the expanse 
-between friends.
 
 ### `npm test`
 
