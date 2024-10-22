@@ -1,0 +1,70 @@
+.activity-container {
+  .list {
+    .list-item {
+      background-color: var(--secondary-bg-color);
+      padding: 1rem;
+      border-radius: var(--primary-border-radius);
+      margin-bottom: 10px;
+      position: relative;
+      .message {
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+      }
+
+      .amount {
+        color: var(--primary-color);
+        white-space: nowrap;
+      }
+      .details-sec {
+        display: flex;
+        justify-content: space-between;
+        .date,
+        .details-link {
+          font-size: 12px;
+          color: var(--font-color);
+        }
+        .details-link {
+          cursor: pointer;
+          svg {
+            margin-right: 6px;
+          }
+        }
+      }
+      .contributors-list {
+        .contributors-head {
+          font-size: 12px;
+          color: var(--font-color);
+        }
+        .c-list-item {
+          display: grid;
+          grid-template-columns: 0.5fr 2fr 1fr;
+          gap: 1rem;
+          background-color: var(--primary-bg-color);
+          border-radius: var(--primary-border-radius);
+          margin-bottom: 0.5rem;
+          padding: 8px;
+          .name,
+          .amount {
+            display: flex;
+            align-items: center;
+          }
+          .amount {
+            justify-content: end;
+          }
+        }
+        .profile {
+          border: 1px solid var(--primary-color);
+          border-radius: 50%;
+          height: 35px;
+          width: 35px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

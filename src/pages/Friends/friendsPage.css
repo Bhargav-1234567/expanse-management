@@ -1,0 +1,40 @@
+.friends-page {
+  position: relative;
+  .user-list {
+    margin-top: 1rem;
+    .user-info {
+      display: grid;
+      grid-template-columns: 0.5fr 2fr 1fr;
+      gap: 0.4rem;
+      margin-bottom: 0.5rem;
+      .user-profile {
+        border: 1px solid var(--primary-color);
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        display: flex;
+        align-items: center;
+      }
+      .btn-filled {
+        padding: 0.4rem;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.add-friends-model {
+  position: fixed;
+  height: 100vh;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background-color: var(--card-bg-color);
+  width: 100%;
+  padding: 10px;
+}

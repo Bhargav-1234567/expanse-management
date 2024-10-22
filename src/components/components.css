@@ -1,0 +1,105 @@
+.add-expanse-model {
+  position: fixed;
+  height: 100vh;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: var(--card-bg-color);
+  width: 100%;
+  padding: 10px;
+
+  .select-cont-header {
+    font-size: 12px;
+    margin-bottom: unset;
+    margin-top: 1rem;
+    color: var(--primary-color);
+  }
+}
+
+.expanse-card {
+  margin-bottom: 1rem;
+  background-color: var(--card-bg-color);
+  padding: 1rem;
+  border-radius: var(--primary-border-radius);
+  .btn-filled {
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 1rem;
+  }
+  .progress {
+    background-color: var(--primary-bg-color);
+  }
+  .progress-bar {
+    background-color: var(--primary-color);
+  }
+  .label-section {
+    display: flex;
+    justify-content: space-between;
+
+    label {
+      font-size: 12px;
+    }
+    p {
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+    .owe p {
+      color: var(--secondary-color);
+    }
+  }
+}
+
+.expanse-list {
+  .expanse-list-item {
+    margin-bottom: 0.5rem;
+    background-color: var(--card-bg-color);
+    padding: 1rem;
+    border-radius: var(--primary-border-radius);
+    .desc {
+      margin-bottom: 0rem;
+    }
+    .amount {
+      color: var(--primary-color);
+      margin-bottom: 0rem;
+    }
+  }
+  .contributors-list {
+    .list-item {
+      background-color: var(--primary-bg-color);
+      border-radius: 10px;
+      .owe {
+        color: var(--secondary-color);
+      }
+      .owed {
+        color: var(--primary-color);
+      }
+      .status,
+      .btn-filled {
+        font-size: 12px;
+        padding: 5px;
+      }
+      .inner-grid {
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr;
+        gap: 0.4rem;
+        .profile {
+          border: 1px solid var(--primary-color);
+          border-radius: 50%;
+          height: 35px;
+          width: 35px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .contributor,
+        .contribution-amount {
+          display: flex;
+          align-items: center;
+        }
+        .contribution-amount {
+          justify-content: end;
+        }
+      }
+    }
+  }
+}

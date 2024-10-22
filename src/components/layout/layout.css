@@ -1,0 +1,49 @@
+.layout-container {
+  position: relative;
+  padding-bottom: 60px;
+  .add-expanse-button {
+    position: fixed;
+    bottom: 41px;
+    right: 43%;
+    z-index: 9;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  background-color: var(--secondary-bg-color);
+
+  padding: var(--padding-sm);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--font-color);
+  }
+  .active {
+    color: var(--primary-color);
+  }
+}
+
+.header-container {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  h6 {
+    font-size: 14px;
+  }
+}

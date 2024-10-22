@@ -1,0 +1,64 @@
+input {
+  height: 40px;
+  background-color: var(--secondary-bg-color);
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  color: var(--white-color);
+
+  &:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+
+  label {
+    display: block;
+    font-size: 14px;
+    color: var(--primary-color);
+  }
+}
+.error-message {
+  color: var(--secondary-color);
+  font-size: smaller;
+}
+
+.btn-bordered {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.btn-filled {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.fa-xmark {
+  cursor: pointer;
+}
+
+.profile {
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
